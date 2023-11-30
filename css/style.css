@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;700&display=swap');
+:root{
+    --cor-de-butao:rgb(229, 9, 20);
+    --cor-de-texto: rgb(255,255,255);
+    --cinza : rgb(45,45,45);
+    --fundo: black;
+}
+body{
+    background-color: var(--fundo);
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(/Netflix_responsivo/img/imgFundo.jpg);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.logotipo img{
+    width: 180px;
+}
+.seletor__linguas{
+    width: 120px;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    color: var(--cor-de-texto);
+}
+.btn{
+    width: 90px;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--cor-de-texto);
+    background-color: var(--cor-de-butao);
+    font-size: 16px;
+}
+/* ------------------------------------------------------------- */
+.texto__principal{
+    color: var(--cor-de-texto);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.texto__principal h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 1100px;
+}
+.texto__principal .paragrafo{
+    font-size: 25px;
+}
+
+.nextTeller input[type=email]{
+    background-color:black;
+    padding: 15px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: var(--cor-de-texto);
+}
+.nextTeller .btn{
+    width: 130px;
+    padding: 15px;
+    font: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.pipoca{
+    background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, 
+    #ff9900 0%, 
+    #e50914 17.27%,
+     #0e1b4f 79.44%, 
+     #000413 100% );
+    color: aliceblue;
+    margin: 600px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pipoca__fig img{
+    width: 150px;
+}
+.conteudo__pipoca{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.conteudo__pipoca h2{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.conteudo__pipoca p{
+    font-size: 19px;
+    font-weight: bold;
+}
+.conteudo__pipoca a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #448ef4;
+}
+.sessao{
+    display: flex;
+    align-items: center;
+    color: var(--cor-de-texto);
+    padding: 0 200px;
+    margin: 130px 0;
+}
+.informacao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo_sessao{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.paragrafo__sessao{
+    font-size: 20px;
+}
+.linha{
+    border: 1px solid var(--cinza);
+    padding: 3px;
+    background-color: var(--cinza);
+}
+.perguntas_frequentes h1{
+    color: var(--cor-de-texto);
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+.FAQ h2{
+    color: var(--cor-de-texto);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 250px;
+    
+}
+.perg{
+    color: var(--cor-de-texto);
+    background-color: var(--cinza);
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.perg:hover{
+    background-color: rgb(73, 73, 73);
+}
+.assinartura{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 12px;
+}
+.assinartura p {
+    color: var(--cor-de-texto);
+    font-size: 20px;
+}
+.assinartura .btn{
+    width: 150px;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links li{
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 10px;
+}
+.links a{
+    color: grey;
+}
+.links a:hover{
+    color: white;
+}
+.duvid{
+    color: grey;
+    margin: 10px 170px;
+}
+.duvid a{
+    color: grey;
+}
+.seletor{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid white;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    margin-left: 165px;
+    padding-top: 10px;
+}
+.seletor_final p{
+    color: white;
+    margin-left: 168px;
+}
+@media(max-width:391px){
+    .cabecalho .logotipo img{
+        width: 130px;
+    }
+    .cabecalho{
+        margin: 0;
+        padding: 10px 20px;
+        display: flex;
+    }
+    .botoes__principais{
+        display: flex;
+        gap: 10px;
+    }
+    .seletor__linguas{
+        width: 70px;
+    }
+    .btn{
+        width: 60px;
+    }
+    .texto__principal{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .textos h1{
+        width: 300px;
+    }
+    .nextTeller{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .nextTeller input[type=email]{
+        width:270px;
+        padding: 20px;
+    }
+    .sessao{
+        display: flex;
+        flex-direction: column;
+    }
+    .sessao h1{
+        width: 400px;
+        text-align: center;
+    }
+    .imagem__sessao img{
+        width: 250px;
+    }
+    .titulo_sessao{
+        font-size: 50px;
+    }
+    .pipoca{
+        width: 400px;
+        margin: 0;
+        padding: 0;
+        margin-top: 700px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .pipoca__fig img{
+        width: 100px;
+        margin-top: -50px;
+    }
+    .conteudo__pipoca h2{
+        font-size: 20;
+        text-align: center;
+    }
+    .conteudo__pipoca p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .conteudo__pipoca a{
+        text-align: center;
+    }
+    .FAQ h2{
+        font-size: 35px;
+    }
+    .perg{
+        font-size: 14px;
+        width: 300px;
+    }
+    .perg img {
+        display: none;
+    }
+    .perguntas{
+        align-items: center;
+        margin: 0;
+    }
+    .duvid{
+        margin: 0;
+        font-size: 20px;
+    }
+}
+@media(max-width:691px){
+    header{
+        background-size: 100%;
+    }
+    .logotipo img{
+        width: 320px;
+    }
+    .cabecalho{
+        margin: 0;
+        padding: 10px 20px;
+        display: flex;
+    }
+    .botoes__principais{
+        display: flex;
+        gap: 10px;
+    }
+    .seletor__linguas{
+        width: 70px;
+    }
+    .btn{
+        width: 60px;
+    }
+    
+}
+@media(max-width:280px){
+    .logo img{
+        width: 120px;
+    }
+    .cabecalho{
+        margin: 0;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column; 
+    }
+    .botoes__principais{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .seletor__linguas{
+        width: 70px;
+    }
+    .btn{
+        width: 60px;
+    }
+}
